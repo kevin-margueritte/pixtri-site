@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pixtri — Politique de confidentialité · Privacy Policy</title>
+  <meta name="description" content="Politique de confidentialité de Pixtri : aucune donnée collectée, tout reste sur votre appareil. — Pixtri privacy policy: no data collected, everything stays on your device.">
+  <meta name="theme-color" content="#0B0B0D">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#fr">Aller au contenu</a>
+
+  <header class="top">
+    <div class="wrap narrow">
+      <a class="brand" href="index.html"><img src="logo.png" alt="" width="32" height="32">Pixtri</a>
+      <nav class="langs" aria-label="Langue / Language">
+        <a href="#fr" hreflang="fr" lang="fr">Français</a>
+        <a href="#en" hreflang="en" lang="en">English</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ====================================================== FRANÇAIS -->
+    <section id="fr" lang="fr">
+      <div class="wrap narrow">
+        <h1>Politique de confidentialité</h1>
+        <p class="updated">Dernière mise à jour : 26 novembre 2026</p>
+
+        <div class="note">
+          <strong>En bref : Pixtri ne collecte aucune donnée.</strong> L'app n'a ni compte, ni serveur, ni statistiques, ni publicité, ni SDK tiers. Vos photos, vos choix de tri et votre coffre restent sur votre appareil ; nous n'y avons jamais accès.
+        </div>
+
+        <h2>Qui sommes-nous</h2>
+        <p>Pixtri est édité par Kévin Margueritte, développeur indépendant établi en France (« nous »). Contact : <a href="mailto:mrgueritte@gmail.com?subject=Pixtri%20%E2%80%94%20Confidentialit%C3%A9">mrgueritte@gmail.com</a>.</p>
+
+        <h2>Ce que l'app ne fait pas</h2>
+        <ul>
+          <li>L'app ne contient aucun code qui envoie des données sur Internet : pas de serveur à nous, pas de mesure d'audience, pas de publicité, pas de suivi entre apps ou sites.</li>
+          <li>Elle n'intègre aucun SDK ni aucune bibliothèque tierce.</li>
+          <li>Il n'y a pas de compte à créer : nous ne connaissons ni votre nom, ni votre adresse e-mail, ni votre identifiant d'appareil.</li>
+        </ul>
+        <p>Sur l'App Store, la section « Confidentialité de l'app » de Pixtri indique <strong>« Données non collectées »</strong>.</p>
+
+        <h2>Vos photos</h2>
+        <ul>
+          <li>Avec votre autorisation, Pixtri lit votre photothèque grâce au cadre Photos d'Apple (PhotoKit) pour vous montrer vos photos et vidéos et vous aider à les trier. Vous pouvez accorder un accès complet ou limité à une sélection, et changer d'avis à tout moment dans Réglages › Pixtri › Photos.</li>
+          <li>L'analyse « ménage » (doublons et photos similaires, photos floues, captures d'écran, vidéos volumineuses) est calculée sur l'appareil, avec les cadres d'Apple. Aucun résultat n'est envoyé.</li>
+          <li>Les modifications que vous demandez (ajout à un album, création d'album, suppression) sont appliquées par iOS à votre photothèque. Toute suppression passe par la fenêtre de confirmation d'iOS ; les éléments restent ensuite 30 jours dans « Supprimés récemment ».</li>
+          <li><strong>Photos iCloud :</strong> si vous l'utilisez, une partie de vos originaux peut se trouver uniquement sur iCloud. Pour afficher une photo en grand ou la placer dans le coffre, iOS peut alors télécharger l'original depuis votre compte iCloud. Cet échange est réalisé par iOS entre votre appareil et les serveurs d'Apple ; nous n'y avons pas accès. De même, si Photos iCloud est activé, Apple synchronise sur vos appareils les modifications faites à votre photothèque.</li>
+        </ul>
+
+        <h2>Ce qui est enregistré sur votre appareil</h2>
+        <p>Pixtri enregistre uniquement, dans son espace de stockage privé sur l'appareil :</p>
+        <ul>
+          <li><strong>Des préférences</strong> (dans les préférences de l'app, « UserDefaults ») : présentation d'accueil déjà vue, retour haptique activé ou non, densité de la grille de la galerie, astuce déjà affichée.</li>
+          <li><strong>Votre progression de tri</strong> : les décisions prises mois par mois, le contenu de la corbeille de revue, vos albums récents, les groupes de doublons que vous avez écartés, les dossiers d'albums que vous avez dépliés et l'aide du tri déjà vue. Ces fichiers ne contiennent que des identifiants de photos internes à l'appareil, pas les photos elles-mêmes. Ils sont exclus des sauvegardes de l'appareil.</li>
+          <li><strong>Le coffre</strong>, si vous l'utilisez (voir ci-dessous).</li>
+        </ul>
+        <p>Rien de tout cela ne nous est transmis. Supprimer l'app efface ces données de l'appareil.</p>
+
+        <h2>Le coffre</h2>
+        <ul>
+          <li>Les éléments placés dans le coffre (photos, vidéos, documents numérisés) ainsi que leurs vignettes et métadonnées sont chiffrés sur l'appareil en AES-256-GCM avec CryptoKit, le cadre de chiffrement d'Apple, et protégés en plus par la protection des données d'iOS (illisibles tant que l'appareil est verrouillé).</li>
+          <li>La clé du coffre n'est jamais écrite en clair. Elle est protégée par votre code à 6 chiffres et par une clé de secours que vous seul détenez.</li>
+          <li><strong>Face ID ou Touch ID (facultatif) :</strong> si vous l'activez, une copie de la clé est conservée dans le Trousseau d'iOS, utilisable seulement après une authentification biométrique réussie sur cet appareil. Elle n'est jamais sauvegardée ni transférée vers un autre appareil. L'authentification biométrique est entièrement gérée par iOS : l'app ne reçoit jamais aucune donnée biométrique.</li>
+          <li>Les fichiers chiffrés du coffre font partie de la sauvegarde de votre appareil (iCloud ou ordinateur), pour que vous ne perdiez pas vos éléments en changeant d'iPhone. Ils y restent illisibles sans votre code ou votre clé de secours.</li>
+          <li><strong>Nous ne pouvons pas ouvrir votre coffre ni le récupérer pour vous.</strong> Si vous perdez à la fois votre code et votre clé de secours, son contenu est définitivement irrécupérable.</li>
+          <li>Supprimer l'app efface le coffre de l'appareil (des sauvegardes antérieures de l'appareil peuvent en contenir une copie chiffrée ; iOS peut conserver dans le Trousseau la copie de clé liée à Face ID ou Touch ID, qui ne donne accès à rien sans les fichiers du coffre). Pensez à sortir vos éléments du coffre avant.</li>
+        </ul>
+
+        <h2>Appareil photo</h2>
+        <p>L'accès à l'appareil photo sert uniquement à photographier ou numériser un document directement dans le coffre, si vous le demandez. Ces prises de vue sont chiffrées dans le coffre et ne sont pas enregistrées dans votre photothèque.</p>
+        <p>Pixtri n'ajoute des éléments à votre photothèque que lorsque vous choisissez de sortir des éléments du coffre.</p>
+
+        <!-- PREMIUM:BEGIN -->
+        <h2>Achats intégrés</h2>
+        <p>Si vous achetez une option dans l'app, le paiement est traité par Apple via l'App Store. Pour savoir si vous avez acheté l'option ou pour restaurer un achat, l'app interroge l'App Store par les services d'Apple (StoreKit) : c'est la seule communication réseau déclenchée par l'app, et elle est gérée par Apple. Nous ne recevons aucune donnée de paiement ni aucune information permettant de vous identifier.</p>
+        <p>Pour appliquer les 500 tris gratuits, l'app compte sur l'appareil le nombre de tris effectués (un simple nombre, sans aucune information sur vos photos). Ce nombre est aussi conservé dans le Trousseau d'iOS, propre à cet appareil et jamais synchronisé avec iCloud : il peut subsister après la suppression de l'app, pour que la réinstaller ne remette pas le compteur à zéro. Il ne nous est jamais transmis.</p>
+        <!-- PREMIUM:END -->
+
+        <h2>Données traitées par Apple</h2>
+        <p>Apple traite certaines données selon ses propres règles, indépendamment de Pixtri : téléchargement de l'app, Photos iCloud, sauvegardes de l'appareil<!-- PREMIUM:BEGIN -->, achats intégrés<!-- PREMIUM:END -->. Si vous avez accepté de partager les analyses avec les développeurs (Réglages › Confidentialité et sécurité › Analyses et améliorations), Apple peut nous transmettre des rapports de plantage et des statistiques agrégées qui ne nous permettent pas de vous identifier. L'app elle-même n'envoie rien.</p>
+
+        <h2>Liens et assistance</h2>
+        <p>Les liens de l'app vers ce site (confidentialité, assistance) s'ouvrent dans Safari. Ce site n'utilise ni cookie, ni traceur, ni ressource externe ; il est hébergé par GitHub Pages, dont l'hébergeur peut conserver des journaux techniques (comme l'adresse IP) pour sa sécurité.</p>
+        <p>Si vous nous écrivez, nous recevons votre adresse e-mail et le contenu de votre message. Ils servent uniquement à vous répondre, ne sont jamais partagés et sont supprimés sur simple demande.</p>
+
+        <h2>Enfants</h2>
+        <p>Pixtri ne collecte aucune donnée, y compris auprès des enfants.</p>
+
+        <h2>Vos droits</h2>
+        <p>Comme nous ne collectons aucune donnée personnelle via l'app, nous n'avons rien à vous communiquer, corriger ou effacer à son sujet : vos données restent sous votre seul contrôle, sur votre appareil. Pour les échanges par e-mail, vous pouvez exercer vos droits d'accès, de rectification et d'effacement en nous écrivant, et introduire une réclamation auprès de la CNIL.</p>
+
+        <h2>Modifications</h2>
+        <p>Si cette politique change (par exemple avec une nouvelle fonction), la nouvelle version sera publiée sur cette page avec une nouvelle date de mise à jour. Nous ne commencerons jamais à collecter des données sans l'indiquer ici et dans la fiche App Store.</p>
+
+        <h2>Contact</h2>
+        <p><a href="mailto:mrgueritte@gmail.com?subject=Pixtri%20%E2%80%94%20Confidentialit%C3%A9">mrgueritte@gmail.com</a></p>
+      </div>
+    </section>
+
+    <!-- ====================================================== ENGLISH -->
+    <section id="en" lang="en">
+      <div class="wrap narrow">
+        <span class="lang-tag">English</span>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: November 26, 2026</p>
+
+        <div class="note">
+          <strong>In short: Pixtri collects no data.</strong> The app has no account, no server, no analytics, no ads and no third-party SDK. Your photos, your sorting choices and your vault stay on your device; we never have access to them.
+        </div>
+
+        <h2>Who we are</h2>
+        <p>Pixtri is published by Kévin Margueritte, an independent developer based in France ("we"). Contact: <a href="mailto:mrgueritte@gmail.com?subject=Pixtri%20%E2%80%94%20Privacy">mrgueritte@gmail.com</a>.</p>
+
+        <h2>What the app does not do</h2>
+        <ul>
+          <li>The app contains no code that sends data over the Internet: no server of ours, no analytics, no advertising, no tracking across apps or websites.</li>
+          <li>It includes no third-party SDK or library.</li>
+          <li>There is no account to create: we don't know your name, your email address or your device identifier.</li>
+        </ul>
+        <p>On the App Store, Pixtri's "App Privacy" section reads <strong>"Data Not Collected"</strong>.</p>
+
+        <h2>Your photos</h2>
+        <ul>
+          <li>With your permission, Pixtri reads your photo library through Apple's Photos framework (PhotoKit) to show you your photos and videos and help you sort them. You can grant full access or limited access to a selection, and change your mind at any time in Settings › Pixtri › Photos.</li>
+          <li>The cleanup analysis (duplicates and similar shots, blurry photos, screenshots, large videos) is computed on device, with Apple's frameworks. No result is sent anywhere.</li>
+          <li>Changes you request (adding to an album, creating an album, deleting) are applied by iOS to your photo library. Every deletion goes through the iOS confirmation prompt; items then stay 30 days in "Recently Deleted".</li>
+          <li><strong>iCloud Photos:</strong> if you use it, some of your originals may only be stored in iCloud. To show a photo full size or move it into the vault, iOS may then download the original from your iCloud account. This exchange is handled by iOS between your device and Apple's servers; we have no access to it. Likewise, if iCloud Photos is on, Apple syncs the changes made to your library across your devices.</li>
+        </ul>
+
+        <h2>What is stored on your device</h2>
+        <p>Pixtri only stores, in its private storage on the device:</p>
+        <ul>
+          <li><strong>Preferences</strong> (in the app's preferences, "UserDefaults"): welcome screens already seen, haptic feedback on or off, gallery grid density, tip already shown.</li>
+          <li><strong>Your sorting progress</strong>: the decisions made month by month, the contents of the review bin, your recent albums, the duplicate groups you dismissed, the album folders you expanded and whether you've seen the sorting tips. These files only contain photo identifiers that are internal to the device, not the photos themselves. They are excluded from device backups.</li>
+          <li><strong>The vault</strong>, if you use it (see below).</li>
+        </ul>
+        <p>None of this is ever sent to us. Deleting the app erases this data from the device.</p>
+
+        <h2>The vault</h2>
+        <ul>
+          <li>Items you place in the vault (photos, videos, scanned documents), along with their thumbnails and metadata, are encrypted on device with AES-256-GCM using CryptoKit, Apple's encryption framework, and are further protected by iOS Data Protection (unreadable while the device is locked).</li>
+          <li>The vault key is never written in plain form. It is protected by your 6-digit passcode and by a recovery key that only you hold.</li>
+          <li><strong>Face ID or Touch ID (optional):</strong> if you turn it on, a copy of the key is kept in the iOS Keychain, usable only after a successful biometric check on this device. It is never backed up or transferred to another device. Biometric authentication is handled entirely by iOS: the app never receives any biometric data.</li>
+          <li>The vault's encrypted files are part of your device backup (iCloud or computer), so you don't lose your items when you change iPhones. They remain unreadable there without your passcode or recovery key.</li>
+          <li><strong>We cannot open your vault or recover it for you.</strong> If you lose both your passcode and your recovery key, its contents are permanently unrecoverable.</li>
+          <li>Deleting the app erases the vault from the device (earlier device backups may still contain an encrypted copy; iOS may keep the Face ID or Touch ID key copy in the Keychain, which gives access to nothing without the vault files). Take your items out of the vault first.</li>
+        </ul>
+
+        <h2>Camera</h2>
+        <p>Camera access is only used to take a photo or scan a document directly into the vault, when you ask for it. These captures are encrypted in the vault and are not saved to your photo library.</p>
+        <p>Pixtri only adds items to your photo library when you choose to take items out of the vault.</p>
+
+        <!-- PREMIUM:BEGIN -->
+        <h2>In-app purchases</h2>
+        <p>If you buy an option in the app, payment is processed by Apple through the App Store. To check whether you bought the option or to restore a purchase, the app queries the App Store through Apple's services (StoreKit): this is the only network communication the app triggers, and it is handled by Apple. We receive no payment data and no information that identifies you.</p>
+        <p>To apply the 500 free sorts, the app counts on the device how many sorts you have made (a plain number, with no information about your photos). This number is also kept in the iOS Keychain, specific to this device and never synced with iCloud: it may remain after the app is deleted, so that reinstalling does not reset the counter. It is never sent to us.</p>
+        <!-- PREMIUM:END -->
+
+        <h2>Data handled by Apple</h2>
+        <p>Apple handles some data under its own policies, independently of Pixtri: app downloads, iCloud Photos, device backups<!-- PREMIUM:BEGIN -->, in-app purchases<!-- PREMIUM:END -->. If you agreed to share analytics with app developers (Settings › Privacy &amp; Security › Analytics &amp; Improvements), Apple may provide us with crash reports and aggregated statistics that do not identify you. The app itself sends nothing.</p>
+
+        <h2>Links and support</h2>
+        <p>The app's links to this website (privacy, support) open in Safari. This website uses no cookies, no trackers and no external resources; it is hosted on GitHub Pages, whose host may keep technical logs (such as IP addresses) for security purposes.</p>
+        <p>If you email us, we receive your email address and the content of your message. They are used only to reply to you, are never shared, and are deleted on request.</p>
+
+        <h2>Children</h2>
+        <p>Pixtri collects no data, including from children.</p>
+
+        <h2>Your rights</h2>
+        <p>Since we collect no personal data through the app, there is nothing for us to provide, correct or erase about it: your data stays under your sole control, on your device. For email exchanges, you can exercise your rights of access, rectification and erasure by writing to us, and lodge a complaint with your data protection authority (in France, the CNIL).</p>
+
+        <h2>Changes</h2>
+        <p>If this policy changes (for example with a new feature), the new version will be posted on this page with a new update date. We will never start collecting data without saying so here and on the App Store listing.</p>
+
+        <h2>Contact</h2>
+        <p><a href="mailto:mrgueritte@gmail.com?subject=Pixtri%20%E2%80%94%20Privacy">mrgueritte@gmail.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap narrow">
+      <span>© 2026 Kévin Margueritte</span>
+      <nav aria-label="Liens / Links">
+        <a href="index.html" lang="fr">Accueil</a>
+        <a href="index.html#en" lang="en">Home</a>
+        <a href="support.html#fr" lang="fr">Assistance</a>
+        <a href="support.html#en" lang="en">Support</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
